@@ -127,7 +127,7 @@ footer {
   background-color: #333333;
 }
 footer img {
-  width: 80%;
+  width: 50%;
 }
 
 .section-ia-1 {
@@ -136,6 +136,9 @@ footer img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.section-coding {
+  background-image: url(https://laplateforme.io/wp-content/uploads/2022/09/montage-developer-web.webp);
 }
 .section-ia-1 .section-ia-1-content {
   padding: 20px;
@@ -168,6 +171,20 @@ footer img {
   color: #e55615;
 }
 
+.section-informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.section-informations .section-informations-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
 @media screen and (min-width: 768px) {
   .section-ia-1 {
     min-height: 450px;
@@ -185,6 +202,13 @@ footer img {
     max-width: 480px;
     line-height: 2.2rem;
     font-size: 1.2rem;
+  }
+  .section-informations {
+    flex-direction: row;
+    margin: 2rem;
+  }
+  footer img {
+    width: 20%;
   }
 }
 
